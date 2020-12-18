@@ -30,4 +30,4 @@ Route::get('admin-password/reset/{token}', 'Admin\ResetPasswordController@showRe
 Route::post('admin-password/reset', 'Admin\ResetPasswordController@reset')->name('admin.password.update');
 Route::get('admin/logout', 'AdminController@logout')->name('admin.logout');
 Route::get('/admin/Change/Password','AdminController@ChangePassword')->name('admin.password.change');
-Route::post('/admin/password/update','AdminController@Update_pass')->name('admin.password.update');
+Route::post('/admin/password/update','AdminController@Update_pass')->name('admin.password.update1');
